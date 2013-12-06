@@ -1,0 +1,23 @@
+{
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDesc__",
+    "version": "3.0.7",
+    "manifest_version": 2,
+    "default_locale": "es",
+    "icons": {
+           "16": "icon_16.png",
+           "48": "icon_48.png",
+           "128": "icon_128.png"
+             },   
+      "app": {
+      "launch": {
+        "web_url": "http://www.bitcoinvenezuela.com/"
+                } 
+              },
+  "permissions": [
+    "<all_urls>",
+    "unlimitedStorage",
+    "notifications",
+    "background"
+     ]
+}
